@@ -1,8 +1,5 @@
 import pdfplumber
-# Path to the PDF file
 pdf_path = "C:/Users/jamal/Desktop/aka foods/AKA.pdf"
-
-# Open the PDF with pdfplumber
 with pdfplumber.open(pdf_path) as pdf:
     # Specify the pages you want to extract (1-based index)
     specific_pages = [75]  # Pages to extract (1 = first page, 2 = second, etc.)
