@@ -32,5 +32,3 @@ with pdfplumber.open(pdf_file) as pdf:
 df = pd.read_parquet(output_file, engine="pyarrow")
 print(f"\nContents of {output_file}:")
 print(df)
-
-
